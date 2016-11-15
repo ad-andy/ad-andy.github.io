@@ -1,0 +1,141 @@
+.tonglan{
+	height: 38px;
+	background: #EBEBEB;
+	border-bottom: 1px #eee solid;
+}
+.tonglanleft ul li{
+	float:left;
+	padding:10px 10px;
+	color:#999;
+}
+.tonglanright{
+	width: 268px;
+}
+.tonglanright .welcome{
+	color:#666;
+	line-height: 38px;
+}
+.tonglanright ul{
+	float:right;
+
+}
+.tonglanright ul li{
+	float:left;
+	line-height: 38px;
+	
+}
+.tonglanright ul li a{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*logo部分开始*/
+.logo{
+	height: 90px;
+}
+.logo img{
+	margin-top: 15px;
+}
+/*导航开始*/
+.nav{
+	height: 50px;
+	background: #222222;
+}
+.nav .center{
+	position:relative;
+}
+.nav ul li{
+	float:left;
+}
+.nav .new1{
+	position: absolute;
+	width: 27px;
+	height: 19px;
+	background: url("../images/sprite.png") -136px 0;
+	left:300px;
+	top:-10px;
+}
+.nav .new2{
+	position: absolute;
+	width: 27px;
+	height: 19px;
+	background: url("../images/sprite.png") -136px 0;
+	left:420px;
+	top:-10px;
+}
+.nav ul li a{
+	display: inline-block;
+	padding:0 10px;
+	color:#fff;
+	font:18px/50px microsoft yahei;
+}
+.nav ul li a:hover{
+	background: red;
+}
+/*广告开始*/
+.banner{
+	height: 347px;
+}
+.banner img{
+	height: 347px;
+	width: 1370px;
+}
+/*第二导航*/
+.subnav{
+	margin-top: 47px;
+	height: 70px;
+}
+.subnav .lefttext{
+	color:#666;
+	font:28px/70px microsoft yahei;
+
+}
+.subnav .righttext{
+	color:#ccc;
+	font:16px microsoft yahei;
+	height: 33px;
+	margin-top: 30px;
+}
+/*第二广告*/
+.eightone{
+	height: 270px;
+	width: 270px;
+}
+.eightone .kaike{
+	height: 200px;
+	/*overflow: hidden;*/
+}
+.eightone img{
+	width: 279px;
+}
+.eightone .bottomnav{
+	z-index:10;
+	height: 20px;
+	width: 240px;
+	/*margin-top: 136px;*/
+	background: #888;
+	color:white;
+}
+.eightone .ps{
+	width: 29px;
+	height: 20px;
+	background: #444;
+	color:white;
+}
+.miji{
+	line-height: 25px;
+}
+.baoming{
+	height: 35px;
+}
+/*版权部分*/
+.copyright{
+	margin-top: 50px;
+	background: #222;
+	height: 213px;
+	padding-top: 20px;
+}
+.copyright p{
+	margin-top: 30px;
+	color:white;
+	line-height: 26px;
+}
